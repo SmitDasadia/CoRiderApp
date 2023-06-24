@@ -80,6 +80,7 @@ const UniqueUserId = () => {
                     <p className="font-medium text-lg truncate hover:text-clip sm:w-auto w-32">
                       {userId}
                     </p>
+                    {chatWithImage.sender.self == true && <p>Self</p>}
                   </div>
                 </div>
               </Link>

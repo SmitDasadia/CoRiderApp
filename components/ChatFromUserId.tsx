@@ -122,11 +122,7 @@ function ChatFromUserId({ userId }: Props) {
         </div>
       </div>
 
-      {!hasMoreChats && (
-        <div className="text-center font-bold text-xl text-black">
-          No more chats to load
-        </div>
-      )}
+      
     </>
   );
 }
